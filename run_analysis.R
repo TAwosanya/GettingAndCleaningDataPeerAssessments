@@ -43,5 +43,34 @@ tidyData <- aggregate(myNewData[,2:67],by=list(myNewData[,1], myNewData[,68]),me
 names(tidyData) <- c("subject","activity",names(tidyData)[-c(1:2)])
 
 # Peek tidy data set
-tidyData
+head(tidyData)
 
+# Write data to a text file
+write.csv(tidyData, "tidyData.csv", quote=FALSE,row.names=FALSE)
+
+########################################################################################
+########################################################################################
+
+# This is meant to generate a description of each variable, to be used in the code book
+myNewDataVariableDescriptions <- NULL
+for(name in names(tidyData)[-c(1,2)]){
+     domain <- NULL
+     lowPassFilter <- NULL
+     rawSignal <- NULL
+     signal <- NULL
+     mag <- NULL
+     estimate <- NULL
+     direction <- NULL
+     domain <- ifelse(grepl("^t",name),"Time Domain","Frequency Domain")
+     lowPassFilter <- ifelse(grepl("Body",name),"Body","Gravity")
+     rawSignal <- ifelse(grepl("Acc",name),"Acceleration","Gyroscope")
+     signal <- ifelse(grepl("AccJerk",name),"Linear Acceleration",ifelse(grepl("GyroJerk",name),"Angular Velocity",""))
+     mag <- ifelse(grepl("Mag",name),"Magnitude","")
+     estimate <- ifelse(grepl("Mean",name),"Mean","Standard Deviation")
+     direction <- ifelse(grepl(".X",name),"Direction X",ifelse(grepl(".Y",name),"Direction Y",ifelse(grepl(".Z",name),"Direction Z","")))
+     temp <- paste(domain,lowPassFilter,rawSignal,signal,mag,estimate,direction,sep=" ")
+     myNewDataVariableDescriptions <- c(myNewDataVariableDescriptions,temp)
+}
+
+# Final variable or column description object
+VariableDescription <- c("Subject","Activity",myNewDataVariableDescriptions)

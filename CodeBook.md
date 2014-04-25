@@ -7,215 +7,215 @@ Variable description for data
 This convention was adapted from the codebook used for the data set in the quizzes for this course.
 
 ```
-## *subject	2
-## 		*1_30  Subject Id
-## 
-## *activity	1
-## 		*1_6  Activity
-##			*1 WALKING
-##			*2 WALKING_UPSTAIRS
-##			*3 WALKING_DOWNSTAIRS
-##			*4 SITTING
-##			*5 STANDING
-##			*6 LAYING
+## subject	2
+## 		 1-30 Subject Id
 ##
-## *tBodyAccMean.X	7
-## 		*Real number  Time Domain Body Acceleration   Mean Direction X
+## activity	1
+## 		 1-6 Activity
+## 				1 WALKING
+## 				2 WALKING_UPSTAIRS
+## 				3 WALKING_DOWNSTAIRS
+## 				4 SITTING
+## 				5 STANDING
+## 				6 LAYING
 ## 
-## *tBodyAccMean.Y	7
-## 		*Real number  Time Domain Body Acceleration   Mean Direction Y
+## tBodyAccMean.X	7
+## 		Real number  Time Domain Body Acceleration   Mean Direction X
 ## 
-## *tBodyAccMean.Z	7
-## 		*Real number  Time Domain Body Acceleration   Mean Direction Z
+## tBodyAccMean.Y	7
+## 		Real number  Time Domain Body Acceleration   Mean Direction Y
 ## 
-## *tBodyAccStd.X	7
-## 		*Real number  Time Domain Body Acceleration   Standard Deviation Direction X
+## tBodyAccMean.Z	7
+## 		Real number  Time Domain Body Acceleration   Mean Direction Z
 ## 
-## *tBodyAccStd.Y	7
-## 		*Real number  Time Domain Body Acceleration   Standard Deviation Direction Y
+## tBodyAccStd.X	7
+## 		Real number  Time Domain Body Acceleration   Standard Deviation Direction X
 ## 
-## *tBodyAccStd.Z	7
-## 		*Real number  Time Domain Body Acceleration   Standard Deviation Direction Z
+## tBodyAccStd.Y	7
+## 		Real number  Time Domain Body Acceleration   Standard Deviation Direction Y
 ## 
-## *tGravityAccMean.X	7
-## 		*Real number  Time Domain Gravity Acceleration   Mean Direction X
+## tBodyAccStd.Z	7
+## 		Real number  Time Domain Body Acceleration   Standard Deviation Direction Z
 ## 
-## *tGravityAccMean.Y	7
-## 		*Real number  Time Domain Gravity Acceleration   Mean Direction Y
+## tGravityAccMean.X	7
+## 		Real number  Time Domain Gravity Acceleration   Mean Direction X
 ## 
-## *tGravityAccMean.Z	7
-## 		*Real number  Time Domain Gravity Acceleration   Mean Direction Z
+## tGravityAccMean.Y	7
+## 		Real number  Time Domain Gravity Acceleration   Mean Direction Y
 ## 
-## *tGravityAccStd.X	7
-## 		*Real number  Time Domain Gravity Acceleration   Standard Deviation Direction X
+## tGravityAccMean.Z	7
+## 		Real number  Time Domain Gravity Acceleration   Mean Direction Z
 ## 
-## *tGravityAccStd.Y	7
-## 		*Real number  Time Domain Gravity Acceleration   Standard Deviation Direction Y
+## tGravityAccStd.X	7
+## 		Real number  Time Domain Gravity Acceleration   Standard Deviation Direction X
 ## 
-## *tGravityAccStd.Z	7
-## 		*Real number  Time Domain Gravity Acceleration   Standard Deviation Direction Z
+## tGravityAccStd.Y	7
+## 		Real number  Time Domain Gravity Acceleration   Standard Deviation Direction Y
 ## 
-## *tBodyAccJerkMean.X	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration  Mean Direction X
+## tGravityAccStd.Z	7
+## 		Real number  Time Domain Gravity Acceleration   Standard Deviation Direction Z
 ## 
-## *tBodyAccJerkMean.Y	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration  Mean Direction Y
+## tBodyAccJerkMean.X	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration  Mean Direction X
 ## 
-## *tBodyAccJerkMean.Z	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration  Mean Direction Z
+## tBodyAccJerkMean.Y	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration  Mean Direction Y
 ## 
-## *tBodyAccJerkStd.X	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration  Standard Deviation Direction X
+## tBodyAccJerkMean.Z	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration  Mean Direction Z
 ## 
-## *tBodyAccJerkStd.Y	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Y
+## tBodyAccJerkStd.X	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration  Standard Deviation Direction X
 ## 
-## *tBodyAccJerkStd.Z	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Z
+## tBodyAccJerkStd.Y	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Y
 ## 
-## *tBodyGyroMean.X	7
-## 		*Real number  Time Domain Body Gyroscope   Mean Direction X
+## tBodyAccJerkStd.Z	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Z
 ## 
-## *tBodyGyroMean.Y	7
-## 		*Real number  Time Domain Body Gyroscope   Mean Direction Y
+## tBodyGyroMean.X	7
+## 		Real number  Time Domain Body Gyroscope   Mean Direction X
 ## 
-## *tBodyGyroMean.Z	7
-## 		*Real number  Time Domain Body Gyroscope   Mean Direction Z
+## tBodyGyroMean.Y	7
+## 		Real number  Time Domain Body Gyroscope   Mean Direction Y
 ## 
-## *tBodyGyroStd.X	7
-## 		*Real number  Time Domain Body Gyroscope   Standard Deviation Direction X
+## tBodyGyroMean.Z	7
+## 		Real number  Time Domain Body Gyroscope   Mean Direction Z
 ## 
-## *tBodyGyroStd.Y	7
-## 		*Real number  Time Domain Body Gyroscope   Standard Deviation Direction Y
+## tBodyGyroStd.X	7
+## 		Real number  Time Domain Body Gyroscope   Standard Deviation Direction X
 ## 
-## *tBodyGyroStd.Z	7
-## 		*Real number  Time Domain Body Gyroscope   Standard Deviation Direction Z
+## tBodyGyroStd.Y	7
+## 		Real number  Time Domain Body Gyroscope   Standard Deviation Direction Y
 ## 
-## *tBodyGyroJerkMean.X	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity  Mean Direction X
+## tBodyGyroStd.Z	7
+## 		Real number  Time Domain Body Gyroscope   Standard Deviation Direction Z
 ## 
-## *tBodyGyroJerkMean.Y	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity  Mean Direction Y
+## tBodyGyroJerkMean.X	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity  Mean Direction X
 ## 
-## *tBodyGyroJerkMean.Z	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity  Mean Direction Z
+## tBodyGyroJerkMean.Y	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity  Mean Direction Y
 ## 
-## *tBodyGyroJerkStd.X	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity  Standard Deviation Direction X
+## tBodyGyroJerkMean.Z	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity  Mean Direction Z
 ## 
-## *tBodyGyroJerkStd.Y	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity  Standard Deviation Direction Y
+## tBodyGyroJerkStd.X	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity  Standard Deviation Direction X
 ## 
-## *tBodyGyroJerkStd.Z	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity  Standard Deviation Direction Z
+## tBodyGyroJerkStd.Y	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity  Standard Deviation Direction Y
 ## 
-## *tBodyAccMagMean	7
-## 		*Real number  Time Domain Body Acceleration  Magnitude Mean 
+## tBodyGyroJerkStd.Z	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity  Standard Deviation Direction Z
 ## 
-## *tBodyAccMagStd	7
-## 		*Real number  Time Domain Body Acceleration  Magnitude Standard Deviation 
+## tBodyAccMagMean	7
+## 		Real number  Time Domain Body Acceleration  Magnitude Mean 
 ## 
-## *tGravityAccMagMean	7
-## 		*Real number  Time Domain Gravity Acceleration  Magnitude Mean 
+## tBodyAccMagStd	7
+## 		Real number  Time Domain Body Acceleration  Magnitude Standard Deviation 
 ## 
-## *tGravityAccMagStd	7
-## 		*Real number  Time Domain Gravity Acceleration  Magnitude Standard Deviation 
+## tGravityAccMagMean	7
+## 		Real number  Time Domain Gravity Acceleration  Magnitude Mean 
 ## 
-## *tBodyAccJerkMagMean	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration Magnitude Mean 
+## tGravityAccMagStd	7
+## 		Real number  Time Domain Gravity Acceleration  Magnitude Standard Deviation 
 ## 
-## *tBodyAccJerkMagStd	7
-## 		*Real number  Time Domain Body Acceleration Linear Acceleration Magnitude Standard Deviation 
+## tBodyAccJerkMagMean	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration Magnitude Mean 
 ## 
-## *tBodyGyroMagMean	7
-## 		*Real number  Time Domain Body Gyroscope  Magnitude Mean 
+## tBodyAccJerkMagStd	7
+## 		Real number  Time Domain Body Acceleration Linear Acceleration Magnitude Standard Deviation 
 ## 
-## *tBodyGyroMagStd	7
-## 		*Real number  Time Domain Body Gyroscope  Magnitude Standard Deviation 
+## tBodyGyroMagMean	7
+## 		Real number  Time Domain Body Gyroscope  Magnitude Mean 
 ## 
-## *tBodyGyroJerkMagMean	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity Magnitude Mean 
+## tBodyGyroMagStd	7
+## 		Real number  Time Domain Body Gyroscope  Magnitude Standard Deviation 
 ## 
-## *tBodyGyroJerkMagStd	7
-## 		*Real number  Time Domain Body Gyroscope Angular Velocity Magnitude Standard Deviation 
+## tBodyGyroJerkMagMean	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity Magnitude Mean 
 ## 
-## *fBodyAccMean.X	7
-## 		*Real number  Frequency Domain Body Acceleration   Mean Direction X
+## tBodyGyroJerkMagStd	7
+## 		Real number  Time Domain Body Gyroscope Angular Velocity Magnitude Standard Deviation 
 ## 
-## *fBodyAccMean.Y	7
-## 		*Real number  Frequency Domain Body Acceleration   Mean Direction Y
+## fBodyAccMean.X	7
+## 		Real number  Frequency Domain Body Acceleration   Mean Direction X
 ## 
-## *fBodyAccMean.Z	7
-## 		*Real number  Frequency Domain Body Acceleration   Mean Direction Z
+## fBodyAccMean.Y	7
+## 		Real number  Frequency Domain Body Acceleration   Mean Direction Y
 ## 
-## *fBodyAccStd.X	7
-## 		*Real number  Frequency Domain Body Acceleration   Standard Deviation Direction X
+## fBodyAccMean.Z	7
+## 		Real number  Frequency Domain Body Acceleration   Mean Direction Z
 ## 
-## *fBodyAccStd.Y	7
-## 		*Real number  Frequency Domain Body Acceleration   Standard Deviation Direction Y
+## fBodyAccStd.X	7
+## 		Real number  Frequency Domain Body Acceleration   Standard Deviation Direction X
 ## 
-## *fBodyAccStd.Z	7
-## 		*Real number  Frequency Domain Body Acceleration   Standard Deviation Direction Z
+## fBodyAccStd.Y	7
+## 		Real number  Frequency Domain Body Acceleration   Standard Deviation Direction Y
 ## 
-## *fBodyAccJerkMean.X	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration  Mean Direction X
+## fBodyAccStd.Z	7
+## 		Real number  Frequency Domain Body Acceleration   Standard Deviation Direction Z
 ## 
-## *fBodyAccJerkMean.Y	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration  Mean Direction Y
+## fBodyAccJerkMean.X	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration  Mean Direction X
 ## 
-## *fBodyAccJerkMean.Z	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration  Mean Direction Z
+## fBodyAccJerkMean.Y	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration  Mean Direction Y
 ## 
-## *fBodyAccJerkStd.X	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration  Standard Deviation Direction X
+## fBodyAccJerkMean.Z	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration  Mean Direction Z
 ## 
-## *fBodyAccJerkStd.Y	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Y
+## fBodyAccJerkStd.X	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration  Standard Deviation Direction X
 ## 
-## *fBodyAccJerkStd.Z	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Z
+## fBodyAccJerkStd.Y	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Y
 ## 
-## *fBodyGyroMean.X	7
-## 		*Real number  Frequency Domain Body Gyroscope   Mean Direction X
+## fBodyAccJerkStd.Z	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration  Standard Deviation Direction Z
 ## 
-## *fBodyGyroMean.Y	7
-## 		*Real number  Frequency Domain Body Gyroscope   Mean Direction Y
+## fBodyGyroMean.X	7
+## 		Real number  Frequency Domain Body Gyroscope   Mean Direction X
 ## 
-## *fBodyGyroMean.Z	7
-## 		*Real number  Frequency Domain Body Gyroscope   Mean Direction Z
+## fBodyGyroMean.Y	7
+## 		Real number  Frequency Domain Body Gyroscope   Mean Direction Y
 ## 
-## *fBodyGyroStd.X	7
-## 		*Real number  Frequency Domain Body Gyroscope   Standard Deviation Direction X
+## fBodyGyroMean.Z	7
+## 		Real number  Frequency Domain Body Gyroscope   Mean Direction Z
 ## 
-## *fBodyGyroStd.Y	7
-## 		*Real number  Frequency Domain Body Gyroscope   Standard Deviation Direction Y
+## fBodyGyroStd.X	7
+## 		Real number  Frequency Domain Body Gyroscope   Standard Deviation Direction X
 ## 
-## *fBodyGyroStd.Z	7
-## 		*Real number  Frequency Domain Body Gyroscope   Standard Deviation Direction Z
+## fBodyGyroStd.Y	7
+## 		Real number  Frequency Domain Body Gyroscope   Standard Deviation Direction Y
 ## 
-## *fBodyAccMagMean	7
-## 		*Real number  Frequency Domain Body Acceleration  Magnitude Mean 
+## fBodyGyroStd.Z	7
+## 		Real number  Frequency Domain Body Gyroscope   Standard Deviation Direction Z
 ## 
-## *fBodyAccMagStd	7
-## 		*Real number  Frequency Domain Body Acceleration  Magnitude Standard Deviation 
+## fBodyAccMagMean	7
+## 		Real number  Frequency Domain Body Acceleration  Magnitude Mean 
 ## 
-## *fBodyBodyAccJerkMagMean	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration Magnitude Mean 
+## fBodyAccMagStd	7
+## 		Real number  Frequency Domain Body Acceleration  Magnitude Standard Deviation 
 ## 
-## *fBodyBodyAccJerkMagStd	7
-## 		*Real number  Frequency Domain Body Acceleration Linear Acceleration Magnitude Standard Deviation 
+## fBodyBodyAccJerkMagMean	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration Magnitude Mean 
 ## 
-## *fBodyBodyGyroMagMean	7
-## 		*Real number  Frequency Domain Body Gyroscope  Magnitude Mean 
+## fBodyBodyAccJerkMagStd	7
+## 		Real number  Frequency Domain Body Acceleration Linear Acceleration Magnitude Standard Deviation 
 ## 
-## *fBodyBodyGyroMagStd	7
-## 		*Real number  Frequency Domain Body Gyroscope  Magnitude Standard Deviation 
+## fBodyBodyGyroMagMean	7
+## 		Real number  Frequency Domain Body Gyroscope  Magnitude Mean 
 ## 
-## *fBodyBodyGyroJerkMagMean	7
-## 		*Real number  Frequency Domain Body Gyroscope Angular Velocity Magnitude Mean 
+## fBodyBodyGyroMagStd	7
+## 		Real number  Frequency Domain Body Gyroscope  Magnitude Standard Deviation 
 ## 
-## *fBodyBodyGyroJerkMagStd	7
-## 		*Real number  Frequency Domain Body Gyroscope Angular Velocity Magnitude Standard Deviation
+## fBodyBodyGyroJerkMagMean	7
+## 		Real number  Frequency Domain Body Gyroscope Angular Velocity Magnitude Mean 
+## 
+## fBodyBodyGyroJerkMagStd	7
+## 		Real number  Frequency Domain Body Gyroscope Angular Velocity Magnitude Standard Deviation
 ```
 
 
