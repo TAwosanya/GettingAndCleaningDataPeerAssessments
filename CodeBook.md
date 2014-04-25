@@ -3,25 +3,12 @@ Code book for Analysis
 
 Variable description for data
 --------------------------------------------------------
-The convention in this codebook for variable description was adaped from the code book for data used in quiz for this course.
 
- subject	2
- 		1.30  Subject
+ subject	7
+ 		Real number  Subject
  
- activity	1
- 		1.6  Activity
-		1 WALKING
-
-		2 WALKING_UPSTAIRS
-		
-3 WALKING_DOWNSTAIRS
-		
-4 SITTING
-		
-5 STANDING
-		
-6 LAYING
-
+ activity	7
+ 		Real number  Activity
  
  tBodyAccMean.X	7
  		Real number  Time Domain Body Acceleration   Standard Deviation Direction X
@@ -244,7 +231,7 @@ Steps taken to clean up data
 * Use activity names to name the activities in the data
 * Use feature names to name the activities in the data
 * Extract only the measurements or variables having mean or standard deviation in the features -- this gives a total of 66 variables; with the subject and activity variables makes a total of 68 variables in the data
-* Modify the variable labels in the data set to have a good descriptive variable or feature names -- this convention was adopted from google's naming convention for R
+* Modify the variable labels in the data set to have a good descriptive variable or feature names
 * Create independent tidy data set by aggregating data with the average of each variable for activity and subject  
 
 
