@@ -16,10 +16,8 @@ This convention was adapted from the codebook used for the data set in the quizz
 ##			*2 WALKING_UPSTAIRS
 ##			*3 WALKING_DOWNSTAIRS
 ##			*4 SITTING
-
 ##			*5 STANDING
 ##			*6 LAYING
-
 ##
 ## *tBodyAccMean.X	7
 ## 		*Real number  Time Domain Body Acceleration   Standard Deviation Direction X
