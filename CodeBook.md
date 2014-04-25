@@ -6,12 +6,10 @@ Variable description for data
 The convention in this codebook for variable description was adaped from the code book for data used in quiz for this course.
 
  subject	2
-
- 		1-30  Subject
+ 		1.30  Subject
  
  activity	1
-
- 		1-6  Activity
+ 		1.6  Activity
 		1 WALKING
 
 		2 WALKING_UPSTAIRS
