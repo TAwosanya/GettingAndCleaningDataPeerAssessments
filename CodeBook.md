@@ -13,16 +13,12 @@ This convention was adapted from the codebook used for the data set in the quizz
 ## *activity	1
 ## 		*1_6  Activity
 ##			*1 WALKING
-##			*
-2 WALKING_UPSTAIRS
-##			*
-3 WALKING_DOWNSTAIRS
-##			*
-4 SITTING
+##			*2 WALKING_UPSTAIRS
+##			*3 WALKING_DOWNSTAIRS
+##			*4 SITTING
 
 ##			*5 STANDING
-##			*
-6 LAYING
+##			*6 LAYING
 
 ##
 ## *tBodyAccMean.X	7
